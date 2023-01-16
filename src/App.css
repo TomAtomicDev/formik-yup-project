@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.error {
+  color: #d11149;
+  font-size: 0.75rem;
+  text-align: left;
+  margin-top: 0.25rem;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+nav .titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+nav h3 {
+  margin: 1rem;
+  cursor: pointer;
+  color: #acb4bc;
+}
+nav h3:hover {
+  color: black;
+}
+
+nav img {
+  margin: 0 auto;
+  display: block;
+}
+
+form {
+  width: 95%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 1.25rem rgb(47 47 47 / 25%);
+}
+
+form label {
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: block;
+  text-align: left;
+  margin: 1rem 0 0.5rem;
+}
+form h3 {
+  color: #003e7e;
+  font-size: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 0.65rem 0.5rem;
+  font-size: 1rem;
+  color: black;
+  border: none;
+  background-color: #fff;
+  border-radius: 0px;
+  line-height: 1.5;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  outline: none;
+}
+
+form input {
+  border-bottom: 1px solid #ced4da;
+  color: #495057;
+}
+
+input:focus,
+select:focus {
+  border-color: #4299e1;
+}
+
+input::placeholder,
+select::placeholder {
+  color: #a0aec0;
+}
+
+input[type="checkbox"] {
+  width: fit-content;
+  margin-right: 0.5rem;
+  transform: scale(1.25);
+}
+
+.input-error {
+  border-color: #d11149;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.7rem 0.5rem;
+  background-color: #003e7e;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  width: 80%;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #002b58;
+  
+}
+
+button:disabled {
+  background-color: #b6bcc3;
+}
